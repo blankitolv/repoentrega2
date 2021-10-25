@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background: #55c0dd;
+}
+.menu {
+  display:flex;
+  width: 100%;
+  height: 20vh;
+  align-items: center;
+  background-color: #61dafb;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.menu h1 {
+  cursor:default;
+  user-select: none;
+  width: 30%;
+}
+nav {
+  width: 70%;
+}
+.menu nav ul {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.selected {
+  background-color: rgba(240, 248, 255, 0.623);
+}
+.menu nav ul li {
+  transition: .6s;
+  list-style-type: none;
+  padding: 1rem 2rem;
+}
+.menu nav ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(0, 26, 82);
+  font-weight: 500;
+}
+.menu nav ul li:hover {
+  transition: .6s;
+  border-radius: 10px 10px;
+  background-color: aqua;
+}
+
